@@ -2,10 +2,10 @@
 window.addEventListener("load", () => {
     const m_parent = document.getElementById("music");
 
-    fetch_bollywoodNews("bollywood");
+    /*fetch_bollywoodNews("bollywood");
     fetch_bollywoodNews("indian reality shows");
     fetch_bollywoodNews("lifestyle");
-    //handle_search()
+    handle_search()
     setInterval(() => {
         fetch_photos()
     }, 3000)
@@ -21,7 +21,7 @@ window.addEventListener("load", () => {
     fetch_home("home and garden")
     fetch_home("books")
     fetch_home("theatre")
-    fetch_home("spotlight")
+    fetch_home("spotlight")*/
 
 })
 
@@ -71,7 +71,7 @@ function createMovies(results) {
 
 
     img[k].style.backgroundImage = `url("${results.articles[14].urlToImage}")`;
-    p[k].textContent = `${results.articles[14].title}`
+    // p[k].textContent = `${results.articles[14].title}`
     k++;
 
     for (let i = 0; i < 10; i++) {
@@ -173,7 +173,7 @@ function createMusic(results) {
     const headline = document.getElementsByClassName("m_headlines")
 
     img[n].style.backgroundImage = `url("${results.articles[12].urlToImage}")`;
-    p[o].textContent = `${results.articles[12].title}`
+    // p[o].textContent = `${results.articles[12].title}`
     n++;
     o++;
 
@@ -206,7 +206,7 @@ function createBeauty(results) {
     const headline = document.getElementsByClassName("b_headlines")
 
     img[v].style.backgroundImage = `url("${results.articles[11].urlToImage}")`;
-    p[b].textContent = `${results.articles[11].title}`
+    // p[b].textContent = `${results.articles[11].title}`
     v++;
     b++;
 
