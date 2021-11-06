@@ -278,6 +278,7 @@
 
         .item2>ul>li {
             list-style: none;
+            margin-right: 1.3rem;
         }
 
         .item2>ul>li:hover {
@@ -397,7 +398,7 @@
 
         .poster>div {
             flex-basis: 33%;
-            margin-right: 1rem;
+            margin-right: 1.3rem;
             padding: 0.4rem;
         }
 
